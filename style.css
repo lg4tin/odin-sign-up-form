@@ -16,6 +16,10 @@ button {
     margin-bottom: 20px;
 }
 
+.error {   
+    outline-color: red;
+}
+
 input {
     border-color: #E5E7EB;
     border-radius: 5px;;
@@ -82,8 +86,9 @@ span {
 }
 
 .bottom {
-    margin-top: 30px;
-    margin-left: 40px;
+    position: absolute;
+    bottom: 100px;
+    left: 380px;
 }
 
 .form-element {
@@ -95,6 +100,8 @@ span {
     display: flex;
     gap: 80px;
 }
+
+
 
 
 

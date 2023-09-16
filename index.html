@@ -37,7 +37,7 @@
                     
                     <div class="form-element">
                         <label for="password">Password</label>
-                        <input type="password" id=password class="pw">
+                        <input type="password" id=password class="pw error">
                     </div>
                 </div>
                 <div>
@@ -53,18 +53,31 @@
 
                     <div class="form-element">
                         <label for="confirm_password">Confirm Password</label>
-                        <input type="password" id="confirm_password" class="confirm-pw">
+                        <input type="password" id="confirm_password" class="cpw error">
                     </div>
 
                     
                 </div>
+                <div class="bottom">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <span>Log in</span></p>
+                </div>
             </form>
             
         </div>
-        <div class="bottom">
-            <button type="submit">Create Account</button>
-            <p>Already have an account? <span>Log in</span></p>
-        </div>
+        
     </div>
+    <script>
+        const button = document.querySelector('button');
+        const pw = document.querySelector('.pw');
+        const confirmPW = document.querySelector('.cpw');
+        
+        button.addEventListener('click', () => {
+            if (pw.value !== confirmPW.value) {
+                alert('your passwords dont match');
+                pw.classList.add('wrong');
+            }
+        })
+    </script>
 </body>
 </html>
