@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="left">
+        <div class="logo-container">
+            <p>ODIN</p>
+            <p>image</p>
+        </div>
+    </div>
+    <div class="right">
+        <div class="top">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="middle">
+            <h1>Lets do this!</h1>
+            <form class="form-container">
+                <div>
+                    <div class="form-element">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name">
+                    </div>
+
+                    <div class="form-element">
+                        <label for="Email">Email</label>
+                        <input type="email" id="Email">
+                    </div>
+                    
+                    <div class="form-element">
+                        <label for="password">Password</label>
+                        <input type="password" id=password class="pw">
+                    </div>
+                </div>
+                <div>
+                    <div class="form-element">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name">
+                    </div>
+                    
+                    <div class="form-element">
+                        <label for="phone_number">Phone number</label>
+                        <input type="tel" id="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </div>
+
+                    <div class="form-element">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" id="confirm_password" class="confirm-pw">
+                    </div>
+
+                    
+                </div>
+            </form>
+            
+        </div>
+        <div class="bottom">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <span>Log in</span></p>
+        </div>
+    </div>
+</body>
+</html>

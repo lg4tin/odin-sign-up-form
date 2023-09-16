@@ -1,0 +1,100 @@
+body {
+    background-image: url("/home/lg4tin/Downloads/olena-bohovyk-3BlVILvh9hM-unsplash.jpg");
+    display: flex;
+    align-items: stretch;
+    margin: 0;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 7px 1px black;
+    margin-bottom: 20px;
+}
+
+input {
+    border-color: #E5E7EB;
+    border-radius: 5px;;
+}
+
+input:focus {
+    outline-color: rgb(45, 45, 167);
+}
+
+input:invalid {
+    outline-color: red;
+}
+
+span {
+    color: #596D48;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right,
+.left {
+    height: 100vh;
+}
+
+.right {
+    background-color: whitesmoke;
+    flex: 63;
+    margin: 0;
+}
+
+.left {
+    color: white;
+    flex: 37;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.top {
+    margin-left: 30px;
+    margin-top: 140px;
+    margin-right: 100px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo-container {
+    background-color: black;
+    opacity: 0.5;
+    margin-top: 200px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo-container p {
+    color: white;
+}
+
+.middle {
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.bottom {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.form-element {
+    float: inline-start;
+    padding: 5px 0px;
+}
+
+.form-container {
+    display: flex;
+    gap: 80px;
+}
+
+
+
